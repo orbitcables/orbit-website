@@ -95,7 +95,7 @@ p:last-child {
 .header {
 	overflow: auto;
 	background-color: #0a082d  ;
-	position: sticky;
+	position: sticky;	
 	top: 0;
 	padding: 8px 32px;
 	width: 100%;
@@ -249,28 +249,33 @@ p:last-child {
    font-family: 'Rubik', sans-serif;
    font-size:16px ;
    border:1px solid #fff;
+   outline: none;
+   background-color: #fff;
 }
 .wave {
   position: absolute;
   bottom: 3%;
   left: 50%;
-  background: #1447a3;
+  background: #55ceff;
   width: 300px;
   height: 300px;
   margin-left: -150px;
-  margin-bottom: -301px;
+  margin-bottom: -303px;
   transform-origin: 50% 48%;
   border-radius: 43%;
   color:#0a082d;
   transition-duration: 0.95s;
   transition-property: margin-bottom;
   transition-timing-function: ease;
-  border:1px solid #fff;
+  border:1px solid #0a082d;
+  outline: none;
 }
 .btn-view:hover .wave {
   margin-bottom: -250px;
   animation: rotate 2000ms infinite linear;
-  color: #fff;
+  color:#fbee14;
+  z-index: -999;
+  opacity: 1;
 }
 @keyframes rotate {
   from { transform: rotate(0deg); }
@@ -2035,13 +2040,7 @@ p:last-child {
 	-webkit-transition: all 200ms ease-in-out 0s;
 	box-shadow: 0 0 0px 0 #FBEE14;
 }
-.btn-view:hover{
-	box-shadow: 0 0 0px 3px #FBEE14;
-}
-.btn-view:hover {
-	background-color: #fff;
-    color: #0575E6;
-}
+
 .post-slider .post-items{
 	transition: all 200ms ease-in-out 0s;
 	-moz-transition: all 200ms ease-in-out 0s;
