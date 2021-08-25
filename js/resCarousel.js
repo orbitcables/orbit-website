@@ -202,3 +202,7 @@ function resCarouselAnimator(parent, direction, start, end, speed, length) {
         parent.find(".item").attr("style", "");
     }, speed - 70);
 }
+
+
+
+
