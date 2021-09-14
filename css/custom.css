@@ -2559,49 +2559,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     margin: 0 auto;
 
 }
-.breadcrumbs-wrap ul {
-    padding: 20px 0;
-}
-.breadcrumbs-wrap ul li {
-    margin-right: 18px;
-}
-.breadcrumbs-wrap ul li a {
-    font: 500 .75em Work Sans;
-    color: #00b2a2;
-    text-decoration: underline;
-    position: relative;
-}
-.breadcrumbs-wrap ul li a::after {
-    content: ":";
-    color: #333;
-    margin: 0 8px;
-    position: absolute;
-    text-decoration: none;
-}
-.breadcrumbs-wrap ul li:last-child {
-    margin-right: 0;
-}
-.breadcrumbs-wrap ul li:last-child a {
-    color: #333;
-    text-decoration: none;
-    border: 0;
-    pointer-events: none;
-}
-.breadcrumbs-wrap ul li:last-child a {
-    color: #333;
-    text-decoration: none;
-    border: 0;
-    pointer-events: none;
-}
-.breadcrumbs-wrap ul li a {
-    font: 500 .75em Work Sans;
-    color: #00b2a2;
-    text-decoration: underline;
-    position: relative;
-}
-.breadcrumbs-wrap ul {
-    padding: 20px 0;
-}
 .ourJourney--main-wrapper .journey-image--slider {
     margin-bottom: 40px;
 }
@@ -2686,7 +2643,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     text-align: center;
     line-height: normal;
 }
-
 .ourJourney--main-wrapper .journey-image--slider .journey--slide {
     display: flex;
     flex-direction: column;
@@ -2697,9 +2653,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     cursor: -webkit-grab;
     cursor: grab;
 }
-
-
-
 .ourJourney--main-wrapper .journey-years--slider-main {
     background-color: rgba(0,178,162,.2);
     min-height: 95px;
@@ -2732,7 +2685,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     background: #fff;
     z-index: 1;
 }
-
 .ourJourney--main-wrapper .journey-years--slider-main .active-tooltip::after {
 
     content: "";
@@ -2793,8 +2745,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     height: 100%;
     min-height: 1px;
 }
-
-
 .ourJourney--main-wrapper .journey-years--slider-main {
     background-color: lightsteelblue;
     min-height: 95px;
