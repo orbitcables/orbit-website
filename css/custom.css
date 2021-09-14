@@ -650,15 +650,18 @@ transition: .6s ease all;
 }
 .flipster__button--next{
 	right: 63px;
+	outline: none;
 }
 .slick-prev, .flipster__button--prev{
 	left: 30px;
 	background-image: url(../images/arrow-left.svg);
 	background-repeat: no-repeat;
 	background-position: center;
+
 }
 .flipster__button--prev{
 	left: 63px;
+outline: none;
 }
 .post-slider .slick-prev{
 	display:none !important;
@@ -708,6 +711,7 @@ transition: .6s ease all;
 }
 .thumb-img-col img{
 	width: 100%;
+	height: 450px;
 	border-radius: 13px;
 }
 .thumb-cont-col{
@@ -2415,3 +2419,406 @@ transition: .6s ease all;
 		margin-left: 0;
 	}
 }
+
+
+
+
+.company-overview .block {
+    margin-bottom: 30px;
+    border: solid 7px #fff;
+    text-align: center;
+    background: transparent;
+    line-height: normal;
+    padding: 30px 10px 10px 10px;
+    color:#FBEE14;
+    font-weight: 300;
+    min-height: 165px;
+    position: relative;
+}
+.company-overview .block span {
+    font-weight: 500;
+    font-size: 55px;
+    color: #FBEE14;
+    display: block;
+    line-height: 50px;
+}
+.company-overview .block:before {
+    width: 30px;
+    height: 7px;
+    background: #fff;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -37px;
+    margin-top: -3.5px;
+}
+.backgr{
+	 background: url('../images/orbit history/aboutus10.png') no-repeat;
+	 height: 350px;
+	 opacity: 0.5;
+}
+
+
+.flipbook-viewport{
+	overflow:hidden;
+	width:100%;
+	height:100%;
+}
+
+.flipbook-viewport .container{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:auto;
+}
+
+.flipbook-viewport .flipbook{
+	width:922px;
+	height:600px;
+	left:-461px;
+	top:-300px;
+}
+
+.flipbook-viewport .page{
+	width:461px;
+	height:600px;
+	background-color:white;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook .page{
+	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-ms-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-o-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.flipbook-viewport .page img{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin:0;
+}
+
+.flipbook-viewport .shadow{
+	-webkit-transition: -webkit-box-shadow 0.5s;
+	-moz-transition: -moz-box-shadow 0.5s;
+	-o-transition: -webkit-box-shadow 0.5s;
+	-ms-transition: -ms-box-shadow 0.5s;
+
+	-webkit-box-shadow:0 0 20px #ccc;
+	-moz-box-shadow:0 0 20px #ccc;
+	-o-box-shadow:0 0 20px #ccc;
+	-ms-box-shadow:0 0 20px #ccc;
+	box-shadow:0 0 20px #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*slider css starts here*/
+.ourJourney--main-wrapper {
+	 padding-bottom: 100px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+.container--responsive {
+
+    max-width: 1024px;
+
+}
+.container--responsive {
+
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.breadcrumbs-wrap ul {
+    padding: 20px 0;
+}
+.breadcrumbs-wrap ul li {
+    margin-right: 18px;
+}
+.breadcrumbs-wrap ul li a {
+    font: 500 .75em Work Sans;
+    color: #00b2a2;
+    text-decoration: underline;
+    position: relative;
+}
+.breadcrumbs-wrap ul li a::after {
+    content: ":";
+    color: #333;
+    margin: 0 8px;
+    position: absolute;
+    text-decoration: none;
+}
+.breadcrumbs-wrap ul li:last-child {
+    margin-right: 0;
+}
+.breadcrumbs-wrap ul li:last-child a {
+    color: #333;
+    text-decoration: none;
+    border: 0;
+    pointer-events: none;
+}
+.breadcrumbs-wrap ul li:last-child a {
+    color: #333;
+    text-decoration: none;
+    border: 0;
+    pointer-events: none;
+}
+.breadcrumbs-wrap ul li a {
+    font: 500 .75em Work Sans;
+    color: #00b2a2;
+    text-decoration: underline;
+    position: relative;
+}
+.breadcrumbs-wrap ul {
+    padding: 20px 0;
+}
+.ourJourney--main-wrapper .journey-image--slider {
+    margin-bottom: 40px;
+}
+.slick-slider {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.slick-slider .slick-list, .slick-slider .slick-track {
+    transform: translateZ(0);
+}
+.slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.ourJourney--main-wrapper .journey-image--slider .slick-track {
+    display: flex;
+}
+.slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track::after, .slick-track::before {
+    content: "";
+    display: table;
+}
+.ourJourney--main-wrapper .journey-image--slider .journey--slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    outline: 0;
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.ourJourney--main-wrapper .journey-image--slider .journey--slide img {
+    margin-bottom: 25px;
+    border: 5px solid #fff;
+    border-radius: 40px;
+    box-shadow: 6px 5px 15px rgba(0,0,0,.4);
+    display: block;
+    max-height: 450px;
+}
+.ourJourney--main-wrapper .journey-image--slider .journey--slide h2 {
+    color: #FBEE14;
+    font-size: 5em;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.ourJourney--main-wrapper .journey-image--slider .journey--slide p span {
+    color:  #FBEE14;
+    font-weight: 600;
+}
+.ourJourney--main-wrapper .journey-image--slider .journey--slide p {
+    font-size: 1.125em;
+    text-align: center;
+    line-height: normal;
+}
+.ourJourney--main-wrapper .journey-image--slider .journey--slide p {
+    font-size: 1.125em;
+    text-align: center;
+    line-height: normal;
+}
+
+.ourJourney--main-wrapper .journey-image--slider .journey--slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    outline: 0;
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
+
+
+.ourJourney--main-wrapper .journey-years--slider-main {
+    background-color: rgba(0,178,162,.2);
+    min-height: 95px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.ourJourney--main-wrapper .journey-years--slider-main .active-tooltip {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,calc(-50% - 10px));
+    background-color: #fff;
+    border-radius: 9px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+    height: calc(100% + 5px);
+    width: 120px;
+}
+.ourJourney--main-wrapper .journey-years--slider-main .active-tooltip::before {
+    content: "";
+    box-shadow: 0 1px 6px rgba(0,0,0,.16);
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,-50%) rotate(45deg);
+    width: 20px;
+    height: 20px;
+    border-radius: 3px 0 0 0;
+    background: #fff;
+    z-index: 1;
+}
+
+.ourJourney--main-wrapper .journey-years--slider-main .active-tooltip::after {
+
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    border-radius: 9px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+
+}
+.ourJourney--main-wrapper .journey-years--slider {
+    width: 100%;
+}
+.slick-slider .slick-list, .slick-slider .slick-track {
+    transform: translateZ(0);
+}
+.slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track::after, .slick-track::before {
+    content: "";
+    display: table;
+}
+.ourJourney--main-wrapper .journey-years--slider .journey--year.slick-current {
+    font-weight: 600;
+    font-size: 2.5em;
+}
+.ourJourney--main-wrapper .journey-years--slider .journey--year {
+    padding: 0 50px;
+    min-width: 200px;
+    text-align: center;
+    font-size: 1.875em;
+    line-height: normal;
+    transition: .3s ease-in-out;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 0;
+    cursor: pointer;
+}
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+
+.ourJourney--main-wrapper .journey-years--slider-main {
+    background-color: lightsteelblue;
+    min-height: 95px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.ourJourney--main-wrapper .journey-years--slider-main .active-tooltip {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,calc(-50% - 10px));
+    background-color: #fff;
+    border-radius: 9px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+    height: calc(100% + 5px);
+    width: 120px;
+}
+.ourJourney--main-wrapper .journey-years--slider {
+    width: 100%;
+}
+.ourJourney--main-wrapper .journey-image--slider .journey--slide p {
+    font-size: 1.125em;
+    text-align: center;
+    line-height: normal;
+}
+
